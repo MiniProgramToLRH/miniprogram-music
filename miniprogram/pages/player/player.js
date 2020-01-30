@@ -67,7 +67,7 @@ Page({
         backgroundAudioManager.coverImgUrl = music.al.picUrl
         backgroundAudioManager.singer = music.ar[0].name
         backgroundAudioManager.epname = music.al.name
-        // this.savePlayHistory() // 保存播放历史
+        this.savePlayHistory() // 保存播放历史
       }
       this.setData({ isPlaying: true })
       wx.hideLoading()

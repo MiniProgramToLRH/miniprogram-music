@@ -14,7 +14,7 @@ App({
         traceUser: true,
       })
     }
-    // this.getOpenid()
+    this.getOpenid()
     this.globalData = {
       playingMusicId: -1,
       openid: -1

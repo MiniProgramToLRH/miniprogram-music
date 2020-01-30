@@ -91,7 +91,9 @@ Component({
             blogId: this.properties.blogId
           }
         }).then((res) => {
-          console.log('发送评论成功 res：', res)
+          console.log('消息推送成功 res：', res)
+        }).catch((err) => {
+          console.log('消息推送失败 err', err)
         })
         wx.hideLoading()
         wx.showToast({ title: '评价成功' })
