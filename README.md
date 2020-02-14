@@ -1,12 +1,19 @@
-# 云开发 quickstart
+# 云音乐
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+## 项目描述
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+本项目使用微信小程序云进行开发。项目主要包括：歌单列表、音乐列表、音乐播放、歌词展示、发现列表、发布博客、评论博客、博客详情、个人主页等。
 
-## 参考文档
+## 使用插件/模块
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
++ [tcb-router](https://github.com/TencentCloudBase/tcb-router)：小程序·云开发 云函数类 koa 路由工具
++ [request](https://github.com/request/request)、[request-promise](https://github.com/request/request-promise)
 
+## 项目展示
+
+![app01](./readme/images/app01.png)
+![app02](./readme/images/app02.png)
+![app03](./readme/images/app03.png)
+![app04](./readme/images/app04.png)
+![app05](./readme/images/app05.png)
+![app06](./readme/images/app06.png)
